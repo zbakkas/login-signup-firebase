@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "249740156273",
+    "project_id": "singin-e53b6",
+    "storage_bucket": "singin-e53b6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:249740156273:android:598be8a68668357de1ead0",
+        "android_client_info": {
+          "package_name": "com.example.stoor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPM2eoa9X5rOZ6hJLqJy9kb6wqxl0hiOg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
