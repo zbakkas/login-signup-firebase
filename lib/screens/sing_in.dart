@@ -104,7 +104,7 @@ class _SingInScreenState extends State<SingInScreen> {
                       fontSize: 40, fontWeight: FontWeight.bold),
                 ),
                 const Text(
-                  "Please enter your details to Sing Up",
+                  "Please enter your details to sign Up",
                   style: TextStyle(fontSize: 16),
                 ),
                 Container(
@@ -112,7 +112,7 @@ class _SingInScreenState extends State<SingInScreen> {
                   child: Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 30),
                     child: Text(
-                      "Sing Up",
+                      "Sign Up",
                       style: GoogleFonts.robotoCondensed(
                           fontSize: 20,
                           fontWeight: FontWeight.bold,
@@ -218,7 +218,7 @@ class _SingInScreenState extends State<SingInScreen> {
                       GestureDetector(
                         onTap: () => openscreensignin(),
                         child: Text(
-                          "sing in",
+                          "Login",
                           style: GoogleFonts.robotoCondensed(
                               color: Colors.blue, fontWeight: FontWeight.bold),
                         ),

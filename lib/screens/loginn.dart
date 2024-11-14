@@ -30,7 +30,7 @@ class _LoginScreenState extends State<LoginScreen> {
           email: _emailController.text.trim(),
           password: _passwordController.text.trim(),
         );
-        Navigator.of(context).pushNamed('/');
+          Navigator.of(context).pushReplacementNamed('profile');
       } on FirebaseAuthException catch (e) {
         print(e);
         showDialog(
@@ -199,7 +199,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     GestureDetector(
                       onTap: () => openscreensignin(),
                       child: Text(
-                        "sing Up",
+                        "sign Up",
                         style: GoogleFonts.robotoCondensed(
                             color: Colors.blue, fontWeight: FontWeight.bold),
                       ),
@@ -218,7 +218,7 @@ class _LoginScreenState extends State<LoginScreen> {
                         ),
                       ),
                       Text(
-                        "our",
+                        "or",
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
                           fontSize: 16,
